@@ -1,7 +1,7 @@
 # oracle.virtualprivatedb.demo
 Demonstration of using Virtual Private Database in Oracle 10 - 12c
 
-This demo will work with Oracle 11g (including Oracle Express Edition) - 12c including multitenant and PDB's
+This demo will work with Oracle 11g - 12c including multitenant and PDB's. VPD will not work with Oracle Express Edition that will throw ORA-00439: feature not enabled: Fine-grained access control
 
 To setup use SQL*PLUS or SQLcl complaint client for the database version you want to try the demo for.
 
