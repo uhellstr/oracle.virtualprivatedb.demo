@@ -5,3 +5,6 @@ BEGIN
 END;
 /
 SHOW ERRORS
+
+create view vpd_demo.v_company as select * from vpd_test.company;
+create view vpd_demo.v_customer as select * from vpd_test.customer;

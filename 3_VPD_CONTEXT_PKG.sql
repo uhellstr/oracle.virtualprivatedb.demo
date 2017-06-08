@@ -45,3 +45,5 @@ show errors
 
 GRANT EXECUTE ON vpd_test.set_vpd_session_context_pkg TO PUBLIC;
 CREATE PUBLIC SYNONYM set_vpd_session_context_pkg FOR vpd_test.set_vpd_session_context_pkg;
+GRANT SELECT ON vpd_test.customer to VPD_DEMO;
+GRANT SELECT ON vpd_test.company  to VPD_DEMO;
