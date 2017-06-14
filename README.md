@@ -50,7 +50,7 @@ Nice! You should get 89 rows in return from the 90 0000 row table.
 In addition to above I've included a APEX application that shows how to work with VPD from Applicaiton Express.
 You will need Apex version 5.1 for this to work.
 
-a) If not already done create a new APEX Workspace
+a) If not already done create a new APEX Workspace.
 b) Create a new  developer account and set VPD_DEMO as the default schema for the user.
 c) Connect as the developer account and import the f101.sql. This will give you a new VPD_TEST application
 d) Try to run the applicataion and the "Kunder" report. This will show no rows since no context is generated.
